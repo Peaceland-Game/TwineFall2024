@@ -14,85 +14,153 @@ Tutorial Memory
 
 :: Advance the conversation {"position":"800,525","size":"100,100"}
 You talk with the father about his sickness, learning that he is particularly unwell today, and that he admits his end is likely near. In this trying time, he asks you to retrieve a photograph from his desk so he can tell you a story that you haven't heard before.
+<img src="images/Scene_2.png">
 [[Go to desk]]
 
 
-:: Enter basement {"position":"925,1525","size":"100,100"}
+:: Descend stairs {"position":"1050,1550","size":"100,100"}
+The father and the soldier begin to head down the stairs. However, as they decend, the father notices a trap on one of the steps. He signals to the other soldier, as that is their specialty.
+<img src="images/Scene_12.png">
+[[Disarm trap]]
+
+
+:: Disarm trap {"position":"925,1550","size":"100,100"}
+The father signals the other soldier who can disarm the trap. They do so, and then they continue down. They are met with another door at the foot of the stairs.
+<img src="images/Scene_13.png">
+[[Open door]]
+[[Press ear to door]]
+
+
+:: Enter basement {"position":"925,1800","size":"100,100"}
 The two enter the basement to indeed find a soldier sleeping on the job. As they enter, the person who listened to the door before opening would hold a finger up to their lips to quiet the rescue target. The target would comply, but silently usher them to hurry up.
+<img src="images/Scene_15.png">
 [[Grab the target]]
 
 
 :: Enter building {"position":"925,1150","size":"100,100"}
-The building is dark and old, as if it hasn't been used in a long time. However, it is decently sized, and the father and soldier must make it through a couple of rooms undetected before they are met with a staircase leading to a basement. This could be a great opportunity for small gameplay mechanics such as Quick Time Events. However, even if the player fails, the other soldier would act as a fail-safe and succeed in the player's stead. 
-[[Interact with surrounding]]
-[[Talk to other soldier]] 
+They enter into a living room with a kitchen at the back of the room. There are also two other doors, and one of them leads to the basement.
+<img src="images/Scene_7.png">
+[[Investigate living room]]
+[[Investigate kitchen]]
+[[Investigate other door]]
 [[Get to basement]]
 
 
 :: Enter memory {"position":"925,1025","size":"100,100"}
 The memory starts with the father and one of the other soldiers outside of a building. A voice comes in over a walkie / earpiece to signal that the remaining soldier is keeping lookout of the surrounding area outside. With confirmation that they are clear for entry, the two enter the building.
+<img src="images/Scene_6.png">
 [[Enter building]]
 
 
-:: Get to basement {"position":"925,1275","size":"100,100"}
-The father and other soldier get to the basement stairs and quietly descend them. Depending on how well they interacted with their surroundings, there could be an opportunity to give them an advantage in this situation, such as knowing how many enemies to expect from footprints or something along those lines. As they reach the bottom, they are met with a door.
-[[Open door]]
-[[Press ear to door]]
+:: Enter memory\  {"position":"1050,1025","size":"100,100"}
+Transition screen for getting into the memory
+<img src="images/Scene_5.5.png">
+[[Enter memory]]
+
+
+:: Flip photo {"position":"1050,775","size":"100,100"}
+You flip the photo to learn the information written on the back
+<img src="images/Scene_4.5.png">
+[[Flip back|Grab photograph]]
+[[Go back to father]] 
+
+
+:: Get to basement {"position":"925,1425","size":"100,100"}
+The father and other soldier get to the door to the basement. They prepare for whatever may be down there and open the door. They are met with a staircase.
+<img src="images/Scene_11.png">
+[[Descend stairs]]
+
 
 
 :: Go back to father {"position":"925,900","size":"100,100"}
 You go back to your father and hand him the photograph. He looks at it fondly before addressing you. He tells you that these two people were the reason he could survive in the war, and that this particular photo was taken before a delicate rescue mission they were assigned as a three soldier unit to keep it simple and concise. As he talks, the text gets blurry, and the screen fades into a memory. 
 (There could also be a hard cut to a screen that lets the player know they are about to be in a memory)
-[[Enter memory]]
+<img src="images/Scene_5.png">
+[[Enter memory ]]
 
 
 :: Go to desk {"position":"800,650","size":"100,100"}
 You go over to the desk, finding the photograph among other items on the desk that are strewn about in no particular fashion. 
+<img src="images/Scene_3.png">
 [[Interact with other items]]
 [[Grab photograph]]
 
 
-:: Go to museum {"position":"925,1900","size":"100,100"}
+:: Go to museum {"position":"925,2425","size":"100,100"}
 In the museum, we would drop off the photo for the exhibit, then check out the other items that have already been placed in displays. These would each be a memory that we would see by interacting with them, reading a description of the item then fading into the memory.
 
 
 :: Grab photograph {"position":"925,775","size":"100,100"}
 You pick up the photograph to see that it's your father with two other comrades dressed in military gear. They are smiling and posing for the picture. You can flip it over to see a small scribble on the back that has the date it was taken, as well as possibly the names of who is in the picture. 
+<img src="images/Scene_4.png">
+[[Flip photo]]
 [[Go back to father]]
 
 
-:: Grab the target {"position":"925,1650","size":"100,100"}
-The father would cut the binds off of the target while the other soldier kept a close eye on the enemy in case they wake up. Once the target is free of their binds, they would be slowly and quietly escorted out of the basement, and the memory would end with some dialogue about how the mission was successful.
-[[Leave memory]]
+:: Grab the target {"position":"925,1925","size":"100,100"}
+The father would cut the binds off of the target while the other soldier kept a close eye on the enemy in case they wake up. Once the target is free of their binds, they would be slowly and quietly escorted out of the basement.
+<img src="images/Scene_16.png">
+[[Head back upstairs]]
+
+
+:: Head back upstairs {"position":"925,2050","size":"100,100"}
+The father and the soldier would escort the soldier back up the stairs and into the main floor. They would radio to the outside soldier who would then give the go ahead to safely exit.
+<img src="images/Scene_17.png">
+[[Mission success]]
 
 
 :: Interact with other items {"position":"800,775","size":"100,100"}
 You pick out a couple of the other items, gaining more insight into who your father is. Things like a well kept diary, certain pins / medals, or other items that the father would have gotten or used to remember the war.
-[[Grab photograph]] 
+[[Grab photograph]]
 
 
-:: Interact with surrounding {"position":"1050,1275","size":"100,100"}
-While traversing the building to get to the stairs, the father would take notice of his surroundings. Things like footprints in the dust, empty bullet cases, broken glass, or other things would be useful to notify the outside soldier of. 
-[[Talk to other soldier]]
-[[Get to basement]]
+:: Investigate kitchen {"position":"925,1300","size":"100,100"}
+In here, the father and the soldier would find an empty meal packet. Similar to the footprints, this would show that there is likely only one guard stationed here since there would be more empty meal packets if there were more soldiers.
+<img src="images/Scene_10.png">
+[[Investigate living room]] 
+[[Investigate other door]] 
+[[Get to basement]] 
 
 
-:: Leave memory {"position":"925,1775","size":"100,100"}
+:: Investigate living room {"position":"800,1300","size":"100,100"}
+In here, the father and the soldier would notice footprints in the layer of dust along the floor. This would tell the player that there is only one person in here. There would also be empty bullet cases to show that the other soldier is likely armed.
+<img src="images/Scene_8.png">
+[[Investigate kitchen]]
+[[Investigate other door]] 
+[[Get to basement]] 
+
+
+:: Investigate other door {"position":"1050,1300","size":"100,100"}
+The father and other soldier would try to open this door but find that it is barricaded on the other side. They will radio to the third soldier outside and get an insight into what's in the other room. All it is is a ransacked bedroom with an large old drawer blocking the door from the other side.
+<img src="images/Scene_9.png">
+[[Investigate living room]] 
+[[Investigate kitchen]] 
+[[Get to basement]] 
+
+
+:: Leave memory {"position":"925,2300","size":"100,100"}
 The game would then fade back to present time with the father finishing up the story. There may be some dialogue here about what our character thinks about the story, but it wouldn't be much. The father would then say something along the lines of
 "If only I could tell these two soldiers how much they meant to me one last time"
 which would set up motivation for the character to progress through the story. Somehow, they would learn of a museum opening up soon that is accepting artifacts connected to the war and the memories it has left with people, which is where we would bring the photo.
+<img src="images/Scene_20.png">
 [[Go to museum]]
 
 
-:: Open door {"position":"925,1400","size":"100,100"}
+:: Mission success {"position":"925,2175","size":"100,100"}
+The father and other soldier would successfully make it out of the house.
+<img src="images/Scene_18.png">
+[[Leave memory]]
+
+
+:: Open door {"position":"925,1675","size":"100,100"}
 The father goes to kick the door down, but the other soldier stops him as they press their ear to the door. They would inform the father that there is the sound of snoring, and then open the door slowly so as to not wake the enemy.
-(Choosing this route instead of an active enemy who the father and soldier would have to subdue somehow)
+<img src="images/Scene_14.png">
 [[Enter basement]]
 
 
-:: Press ear to door {"position":"1050,1400","size":"100,100"}
+:: Press ear to door {"position":"1050,1675","size":"100,100"}
 The father would press his ear to the door to hear whimpering / crying of the target of the rescue mission. They would also hear a singular enemy snoring. The father would then know to open the door quietly so as to not wake the enemy, and would do so.
-(Choosing this route instead of an active enemy who the father and soldier would have to subdue somehow)
+<img src="images/Scene_14.png">
 [[Enter basement]]
 
 
@@ -100,13 +168,8 @@ The father would press his ear to the door to hear whimpering / crying of the ta
 You enter the game in a conversation with your bedridden father. The screen is black with only text, something along the lines of 
 "Father, how do you feel?"
 then the father gives a response as the screen fades into a bedroom. The father is in the bed, and there is a desk and large drawer in the room as well, with a large window on one of the walls. There are items scattered along the desk and drawer, but nothing is too visible just yet.
+<img src="images/Scene_1.png">
 [[Advance the conversation]]
-
-
-:: Talk to other soldier {"position":"800,1275","size":"100,100"}
-While making it to the basement, the father could talk to the other solder. Not particularly small talk, but things such as reminders of what to look out for that are met with either quippy remarks or dutiful responses to build a sense of relationship with the other soldier with the player.
-[[Interact with surrounding]] 
-[[Get to basement]] 
 
 
 :: StoryStylesheet [stylesheet]
@@ -122,4 +185,3 @@ tw-link:hover {
   font-size: 30px;
   color: #5fd1ff;
 }
-
